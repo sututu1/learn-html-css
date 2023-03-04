@@ -1,0 +1,13 @@
+img.normal
+{
+    height: auto;
+}
+img.big
+{
+    height: 120px;
+}
+p.ex
+{
+    height: 100px;
+    width: 100px;
+}

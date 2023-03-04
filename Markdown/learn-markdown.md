@@ -1,49 +1,29 @@
-# 这是H1
+# 这是 H1
 ## 这是H2
 ### 这是H3
+#### 这是H4
 ###### 这是H6
 ***
-> 这是块引用。
-
-> This is the first level of quoting.
+> This is the first level of quoting
 ***
 
-*   Red
-*   Green
-*   Blue
- ***
- **double asterisks.com**
- ***
- This is [an example](http://example.com/
- "Title") inline link.
-
- [This link](http://examp.net/) has no title
- attribute.
- ***
-
-   
-1.  Bird
-2.  McHale
-3.  Parish
-***   
- ```html
- <h1>H1</h1>
-```
+* Red
+* Green
+* Blue
 ***
-<p>This <a href="http://example.com/" 
-
-[google](http:goole.com)
-
-![Alt text](path/to/log.jpg)
-***
-<ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
+* Bird
+* Magic
+* **
+<p>这是一个普通段落：</p>
+<pre><code>这是一个代码区块。</code></pre>
 
 ***
-```
-var a=12;
-console.log(a)
-```
+*sing asterisks*
+_sing underscores_
+__double underscores__
+**double asterisks**
+***
+A single backtick in a code span:``` ` ```
+***
+A backtick-delimited string in a code span:```fool```
+***

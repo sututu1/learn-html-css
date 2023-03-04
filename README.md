@@ -1,1 +1,16 @@
-# Learn HTML and CSS
+## 2023/3/4 todo
+- [x] 5点起床
+- [x] 英语学习 30minutes
+- [x] 阅读5club 30minutes
+- [x] css.anchor伪类 30minutes
+- [x] 健身（手臂负重训练、俯卧撑4组/15个、平板支撑3minutes)    60minutes
+- [x] 牙线棒清洁/刷牙/蒸鸡蛋 30minutes
+- [x] js基础视频练习，if的相关练习 30minutes
+- [x] 冥想 20minutes
+- [x] Vscode快捷键练习 15minutes
+- [x] 键盘指法练习 15minutes
+- [x] 午餐 30minutes
+- [x] 小贴士.shell练习 30minutes
+- [x] 试着看一下网页的源码，了解一下 30minutes
+- [x] 自我介绍，录视频 15minutes
+- [x] 用markdown write todo
