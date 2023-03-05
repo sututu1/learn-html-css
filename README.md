@@ -1,16 +1,18 @@
-## 2023/3/4 todo
-- [x] 5点起床
-- [x] 英语学习 30minutes
-- [x] 阅读5club 30minutes
-- [x] css.anchor伪类 30minutes
-- [x] 健身（手臂负重训练、俯卧撑4组/15个、平板支撑3minutes)    60minutes
-- [x] 牙线棒清洁/刷牙/蒸鸡蛋 30minutes
-- [x] js基础视频练习，if的相关练习 30minutes
-- [x] 冥想 20minutes
-- [x] Vscode快捷键练习 15minutes
-- [x] 键盘指法练习 15minutes
-- [x] 午餐 30minutes
-- [x] 小贴士.shell练习 30minutes
-- [x] 试着看一下网页的源码，了解一下 30minutes
-- [x] 自我介绍，录视频 15minutes
-- [x] 用markdown write todo
+# 个人周报 2023/2/27-2023/3/5
+本周要做的事：
+- 用多邻国学习一个多月了
+- 学会了如何建立初始化仓库，提交代码
+- 健身坚持了一个月，出现了一定的健身效果
+- 小贴士练习，掌握新的知识点，web、shell
+- 网页的源码查看，调试，加深理解
+- 看一部美剧
+- 阅读5club
+- 冥想 20minutes
+- write todo
+  ***
+## 下周要做的事
+- 坚持健身、英语学习、冥想，牙线棒清洁牙齿、持续进行下去
+- 每天看一部美剧
+- 继续学习html/css未完成的章节，并提交代码到仓库
+- 小贴士练习
+  
