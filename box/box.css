@@ -1,0 +1,10 @@
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: yellowgreen;
+    padding: 10px;
+    box-sizing: content-box;
+    margin: 10px;
+    background-color: blueviolet;
+}

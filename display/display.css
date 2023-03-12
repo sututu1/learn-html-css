@@ -1,9 +1,12 @@
-.inline-blok{
+.inline-blok {
     display: inline-block;
+
 }
-.inline{
+
+.inline {
     display: inline;
 }
-.block{
+
+.block {
     display: block;
 }
