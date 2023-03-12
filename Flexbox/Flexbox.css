@@ -1,0 +1,32 @@
+.contatiner {
+    display: inline-block;
+    padding: 10px;
+    background-color: green;
+    font-size: 0;
+}
+
+.contatiner .box {
+    font-size: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    background-color: yellowgreen;
+}
+
+.contatiner .box:first-child {
+    margin-left: 0;
+}
+.contatiner2 {
+    display: flex;
+    flex-wrap: nowrap;   
+}
+
+.contatiner2 .box {
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
