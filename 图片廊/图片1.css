@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+}
+
+.img-list {
+    width: 190px;
+    height: 470px;
+    overflow: hidden;
+    margin: 20px auto;
+    background-color: greenyellow;
+}
+
+.img-list li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.img-list img {
+    width: 100%;
+}
