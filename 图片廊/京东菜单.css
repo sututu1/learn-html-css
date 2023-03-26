@@ -1,0 +1,32 @@
+body {
+    background-color: wheat;
+}
+
+.left-nav {
+    width: 190px;
+    height: 450px;
+    padding: 10px 0;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.left-nav .item {
+    height: 25px;
+    line-height: 25px;
+    padding-left: 18px;
+}
+
+.item:hover {
+    background-color: gray;
+}
+
+.item a {
+    color: green;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.menu-line {
+    padding: 0 2px;
+    font-size: 12px;
+}
