@@ -1,5 +1,5 @@
 .flex-container {
-    display: flex;
+    display: inline-flex;
     height: 200px;
     justify-content: center;
     align-items: center;
