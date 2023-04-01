@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>京东</title> 
+<style>
+ body,ul,li,span{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #999;
+ }
+ .clearfix::before,
+ .clearfix::after{
+    content: '';
+    display: table;
+        clear: both;
+ }
+ .top-bar-wrapper{
+    width: 100%;
+    background-color: #E3E4E5;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+ }
+ .top-bar{
+    width: 1190px;
+    margin: 0 auto;
+ }
+ .top-bar a,
+ .top-bar span{
+    color: #999;
+    text-decoration: none;
+ }
+ .top-bar a:hover,
+ .top-bar a.highlight{
+    color: red;
+ }
+ .location{
+    float: left;
+ }
+ .shortcut{
+    float: right;   ;
+ }
+ .shortcut li{
+    float: left;
+ }
+ .shortcut .line{
+    width: 1px;
+    height: 10px;
+    background-color: #999;
+    margin: 10px;
+ }
+</style>
+</head>
+<body>
+    <div class="top-bar-wrapper">
+        <div class="top-bar clearfix">
+            <div class="location">
+                <div class="current-city">
+                    <a href="javascript:;">北京</a>
+                </div>
+            </div>
+            <ul class="shortcut clearfix">
+                <li>
+                    <a href="javascript:;">你好，请登录</a>
+                    <a class="highlight" href="javascript:;">免费注册</a>
+                </li>
+              <li class="line"></li>
+              <li> <a href="javascript:;">我的订单</a></li>
+              <li class="line"></li>
+              <li><a href="javascript:;">我的京东</a></li>
+              <li class="line"></li>
+              <li><a href="javascript:;">京东会员</a></li>
+              <li class="line"></li>
+             <li> <a class="highlight"  
+                 href="javascript:;">企业采购</a></li> 
+              <li class="line"></li>
+              <li><span>客户服务</span></li>
+              <li class="line"></li>
+              <li><span>网站导航</span></li>
+              <li class="line"></li>
+              <li><span>手机京东</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
