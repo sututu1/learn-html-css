@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -26,11 +27,12 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color:blue ;
 }
 
 /* 链接 - 修改颜色 */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: yellowgreen;
     color: red;
 }
 
@@ -38,6 +40,9 @@ body {
 .column {
     float: left;
     width: 33.33%;
+   font-style:oblique;
+   line-height:30px;
+   font: size 1px;
 }
 
 /* 列后清除浮动 */
@@ -53,3 +58,18 @@ body {
         width: 100%;
     }
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;}

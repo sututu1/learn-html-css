@@ -1,14 +1,14 @@
-## 2023/3/31 todo
+## 2023/4/1 todo
 - [x] 5点起床
 - [x] 英语学习 30minutes
 - [x] 5club 30minutes
 - [x] 跑步 60minutes
 - [x] 牙线棒清洁/刷牙/蒸鸡蛋 30minutes
-- [x] css.分页 60minutes
+- [x] css. 60minutes
 - [ ] 键盘练习 30minutes
 - [x] 午餐 30minutes
 - [ ] 算法导论 30minutes
-- [ ] js教程.数据结构和算法 30minutes
+- [ ] js教程.插入排序算法 30minutes
 - [ ] 冥想 20minutes
 - [ ] 美剧 60minutes
 - [ ] write todo
