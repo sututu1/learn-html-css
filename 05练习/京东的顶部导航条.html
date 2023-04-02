@@ -18,12 +18,14 @@
  .top-bar-wrapper{
     width: 100%;
     background-color: #E3E4E5;
+    height: 30px;   
     line-height: 30px;
     border-bottom: 1px solid #ddd;
  }
  .top-bar{
     width: 1190px;
     margin: 0 auto;
+   position: relative;
  }
  .top-bar a,
  .top-bar span{
@@ -37,6 +39,29 @@
  .location{
     float: left;
  }
+ .location .city-list{
+    display: none;
+    width: 320px;
+    height: 436px;
+    background-color: gray;
+    border: 1px solid rgb(204,204,204);
+    position: absolute;
+    top: 31px;
+    box-shadow: 0 2PX 2px rgba(0 ,0 ,0 ,2);
+    border-bottom: none;
+ }
+.location:hover .city-list{
+    display: block;
+}
+.current-city{
+    padding: 0 10px;
+}
+.current-city:hover{
+    background-color: wheat;
+    border: 1px solid rgba(203, 203, 203 );
+    border-bottom: none;
+}
+ 
  .shortcut{
     float: right;   ;
  }
@@ -58,6 +83,7 @@
                 <div class="current-city">
                     <a href="javascript:;">北京</a>
                 </div>
+                <div class="city-list"></div>
             </div>
             <ul class="shortcut clearfix">
                 <li>
