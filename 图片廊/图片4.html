@@ -3,38 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
-    <script type="text/javascript">
-        whindow.onload = function () {
-            var prev = document.getElementById("prev");
-            var next = document.getElementById("next");
-            var img = document.getElementsByTagName("img")[0];
-            var imgArr = ["img01/1.jpg" , "img01/2.jpg" , "img01/3.jpg"];
-            var index = 0;
-            var info = document.getElementById("info")
-            prev.onclick = function () {
-               index--;
-               if(index < 0){
-                index = imgArr.length - 1;
-               }
-                img.src =imgArr[index];
-                info.innerHTML = "一共"+imgArr.length+" 张图片，当前第"+(index+1)+" 张";
-            };
-            next.onclick = function () {
-                index++;
-                if(index >imgArr.length - 1){
-                    index = 0;
-                }
-              img.src =imgArr[index];
-              info.innerHTML = "一共"+imgArr.length+" 张图片，当前第"+(index+1)+" 张";
-            }
-        };
-    </script>
-    <style type="text/css">
-        *{
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
             margin: 0;
             padding: 0;
         }
+
         #outer {
             width: 380px;
             margin: 50px auto;
@@ -43,6 +20,35 @@
             text-align: center;
         }
     </style>
+    <script>
+        window.onload = function () {
+            var prev = document.getElementById("prev");
+            var next = document.getElementById("next");
+            var img = document.getElementsByTagName("img")[0];
+            var imgArr = ["img01/1.jpg", "img01/2.jpg", "img01/3.jpg"];
+            var index = 0;
+            var info = document.getElementById("info");
+            info.innerHTML = "一共" + imgArr.length + " 张图片，当前第" + (index + 1) + " 张";
+            prev.onclick = function () {
+                // alert("上一张");
+                index--;
+                if (index < 0) {
+                    index = imgArr.length - 1;
+                };
+                img.src = imgArr[index];
+                info.innerHTML = "一共" + imgArr.length + " 张图片，当前第" + (index + 1) + " 张";
+            };
+            next.onclick = function () {
+                // alert("下一张");
+                index++;
+                if (index > imgArr.length - 1) {
+                    index = 0;
+                }
+                img.src = imgArr[index];
+                info.innerHTML = "一共" + imgArr.length + " 张图片，当前第" + (index + 1) + " 张";
+            };
+        };
+    </script>
 </head>
 
 <body>

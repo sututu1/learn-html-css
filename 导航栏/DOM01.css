@@ -1,0 +1,54 @@
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#total {
+    background-color: white;
+}
+
+.inner {
+    float: left;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 1px;
+
+}
+
+.inner li {
+    background-color: #99ff99;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.inner1 {
+    clear: both;
+    border: 1px solid wheat;
+    width: 272px;
+
+}
+
+#btnlist {
+    position: relative;
+    display: block;
+    left: 289px;
+    top: -400px;
+}
+
+#btnlist :hover {
+    color: red;
+    display: block;
+    font-size: 20px;
+}
+
+button {
+    background-color: #66a457;
+    margin: 4px;
+}

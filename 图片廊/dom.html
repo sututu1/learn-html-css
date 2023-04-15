@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,22 @@
     <title>Document</title>
 </head>
 <style>
-    #box1{
-        width: 80px;
-        margin: 50px auto;
-        background-color: red;
-        border-radius: 5px;
-        text-align: center;
-    }
+
 </style>
 <script>
-    window.onload = function(){
-        var box1 = document.getElementById("box1");
-        box1.onclick = function(){
-            alert("hello");
-        }
-
-    }
+    var myElement = document.getElementById("fruit");
+    document.getElementById("demo").innerHTML =
+        "来自 intro 段落的文本是：" + myElement.innerHTML;
 </script>
+
 <body>
-    <div id="box1">开关</div>
+    <h1>通过 id 查找 HTML 元素</h1>
+
+    <p id="fruit">apple orange tomato</p>
+
+    <p>本例演示 <b>getElementsById</b> 方法。</p>
+
+    <p id="demo"></p>
 </body>
+
 </html>

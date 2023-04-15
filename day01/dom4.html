@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div name="hello"></div>
+    <span name="hello"></span>
+    <input name="hello" />
+    <div id="div1">
+        <span name = "hello"></span>
+    </div>
+    <script>
+        window.onload = function(){
+            var nodes = document.getElementsByName("hello");
+            /*var oDiv = document.getElementById("div1");
+            var nodes = oDiv.getElementsByTagName('hello');*/
+            alert(nodes.length);
+        }
+        </script>
+</body>
+
+</html>

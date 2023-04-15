@@ -1,33 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="urf-8">
-        <title>菜鸟教程(runoob.com)</title>
-        <style>
-            p
-            {
-                color: blue;
-                text-align: center;
-            }
-            .marked
-            {
-                background-color: red;
-            }
-            .marked p
-            {
-                color: white;
-            }
-            p.marked{
-                text-decoration: underline;
-            }
-        </style>
-    </head>
-    <body>
-        <p>这个段落是蓝色文本，居中对齐。</p>
-        <div class="marked">
-            <p>这个段落不是蓝色文本。</p>
-        </div>
-        <p>所有 class="marked"元素内的p元素指定一个样式，但有不同的文本颜色。</p>
-        <p class="marked">带下划线的p段落。</p>
-    </body>
+
+<head>
+    <meta charset="urf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <style>
+        .main-heading {
+            color: red;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        body {
+            color: blue;
+        }
+
+        span {
+            color: black;
+        }
+
+        .main {
+            color: rebeccapurple;
+            border: 2px solid #ccc;
+            padding: 1em;
+        }
+
+        .special {
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="main-heading">hello world</h1>
+    <p>As the body has been set to have a color of blue this is inherited through the descendants.</p>
+    <p>We can change the color by targeting the element with a selector, such as this <span>span</span>.</p>
+    <ul class="main">
+        <li>Item One</li>
+        <li>Item Two
+            <ul>
+                <li>2.1</li>
+                <li>2.2</li>
+            </ul>
+        </li>
+        <li>Item Three
+            <ul class="special">
+                <li>3.1
+                    <ul>
+                        <li>3.1.1</li>
+                        <li>3.1.2</li>
+                    </ul>
+                </li>
+                <li>3.2</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
 </html>
