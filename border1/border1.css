@@ -1,25 +1,25 @@
-.container {
+/*.container {
     display: flex;
     width: 500px;
     height: 300px;
     background-color: blueviolet;
-   justify-content: space-between;
-   align-items: flex-end;
-}
+    flex-direction: column;
+}*/
 
 .box1 {
   background-color: green;
     width: 80px;
     line-height: 80px;
-   
+    text-align: center;
 }
 
 .box2 {
 background-color: orange;
    line-height: 80px;
    width: 400px;
+   
 }
-/*练习12.container {
+/*.container {
     display: inline-flex;
     width: 500px;
     height: 300px;
@@ -27,7 +27,7 @@ background-color: orange;
     flex-direction:column;
     justify-content: space-between;  
 }  */
-/* 练习14.container {
+/*.container {
     display: inline-flex;
     width: 500px;
     height: 300px;
@@ -36,7 +36,7 @@ background-color: orange;
     align-items: flex-end;
 } */
 
-/*练习11 .container {
+/*.container {
     display: inline-flex;
     width: 500px;
     height: 300px;
@@ -44,14 +44,14 @@ background-color: orange;
     justify-content: space-around;
     align-items: flex-start;
 } */
-/*练习10 .container {
+ .container {
     display: flex;
     width: 500px;
     height: 300px;
     background-color: blueviolet;
-    justify-content: center;
-    align-items: flex-start;
-} */
+ 
+    align-items: flex-end;
+} 
 
 /*练习10 .container {
     display: flex;
