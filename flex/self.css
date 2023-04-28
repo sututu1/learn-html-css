@@ -1,0 +1,12 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    justify-content: space-evenly;
+    background-color: red;
+  }
+
+  
+

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: contents;
+}
+
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

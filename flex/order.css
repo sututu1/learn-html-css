@@ -1,0 +1,17 @@
+.card {
+    width: 501px;
+    height: 180px;
+    background-color: #0E144A;
+    display: flex;
+    flex-direction: column
+}
+
+.card .content {
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFf4ff;
+    flex: 1 1 auto;
+}
